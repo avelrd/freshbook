@@ -3,7 +3,7 @@
 
   "name": "Freshbook",
   "description": "Hides stuff from facebook for a fresher experience",
-  "version": "0.1",
+  "version": "0.2",
   "permissions": [
   	"storage"
   ],
@@ -13,8 +13,10 @@
     "chrome_style": true
   },
 
-  "browser_action": {
-    "default_icon": "icon.png"
+  "icons": { 
+  	"16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
   },
 
   "content_scripts": [{

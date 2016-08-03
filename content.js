@@ -1,6 +1,15 @@
 // this file handles the hiding of elements on facebook. 
+hideShit();
+hidePosts();
 
-setInterval(function(){hidePosts()}, 5000);	
+
+setInterval(function(){hidePosts()}, 2500);	
+setInterval(function(){hideShit()}, 5000);	
+
+function hideShit(){
+	$('#leftCol').hide();
+	$('.cardRightCol').hide();
+}
 
 function hidePosts(){
 	chrome.storage.sync.get({
