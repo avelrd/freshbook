@@ -1,0 +1,39 @@
+<!-- This file contains a simple html page to set and store the settings -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Freshbook settings</title>
+  <style>
+    body: { padding: 10px; }
+  </style>
+</head>
+
+<body>
+	<h3>Select items to hide:</h3>
+  <label>
+  	<input type="checkbox" id="normal" value="first_checkbox"> 
+  	Hide normal posts
+  </label>
+  <br>
+  <label>
+  	<input type="checkbox" id="likes" value="first_checkbox"> 
+  	Hide friends' likes
+  </label>
+  <br>
+  <label>
+  	<input type="checkbox" id="life" value="first_checkbox"> 
+  	Hide life events
+  </label>
+  <br>
+  <label>
+  	<input type="checkbox" id="friends" value="first_checkbox"> 
+  	Hide friends completely
+  </label>
+  <br>
+  <br>
+  <div id="status"></div>
+  <button id="save">Save</button>
+
+  <script src="options.js"></script>
+</body>
+</html>
